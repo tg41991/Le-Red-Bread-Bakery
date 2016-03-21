@@ -1,0 +1,68 @@
+.site-footer {
+  background: #222222;
+  color: white;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-main-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 0;
+  color: white;
+
+  a {
+    color: white !important;
+    text-decoration: none;
+    font-family: 'Open Sans';
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h3 {
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  i {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 0.25rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    color:white;
+    font-family: 'Open Sans';
+  }
+
+  span {
+    color:white;
+    font-weight: bold;
+  }
+}
+
+.footer-logo {
+  width: 250px;
+}
+
+.site-info {
+  background: #333333;
+  padding: 1.5rem 0;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 0.8rem;
+  i{
+    color: white;
+  }
+}

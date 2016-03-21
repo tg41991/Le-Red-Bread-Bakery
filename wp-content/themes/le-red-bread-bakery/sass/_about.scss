@@ -1,0 +1,42 @@
+.page-template-about .content-area {
+  padding: 3rem 0 3rem 0;
+}
+
+//===Header===//
+
+.page-template-about .about-header p {
+  margin-bottom: 3rem;
+}
+
+.about-header {
+  text-align: center;
+
+  h1 {
+    font-size: 2.1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+//===Content Blocks and Story===//
+
+.about-us-content {
+  margin: 1.5rem 0 4.5rem 0;
+}
+
+.about-us-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-block {
+  flex: 0 1 47.5%;
+}
+
+.tagline {
+  color: #a1a1a1;
+}
+
+.page-template-about .about-us-content h2 {
+  text-align:center;
+}

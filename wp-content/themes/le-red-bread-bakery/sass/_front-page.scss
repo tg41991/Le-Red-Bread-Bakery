@@ -1,0 +1,231 @@
+
+//===Banner===//
+.site-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 525px;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  background: url('../../images/hero-bread.jpg') center top no-repeat;
+  background-size: cover;
+
+  span {
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Overlock';
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px rgba(100,100,100,.75);
+  }
+}
+
+//===Product Categories===//
+.product-categories {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.single-product-category {
+  flex: 0 1 22%;
+
+  img {
+    width: 80%;
+    margin-left: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  a {
+    margin-left: 0.3rem;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #400c0d;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: #db272a;
+  }
+}
+
+//===See Our Products===//
+
+.products-page-link {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  background-color: #fafafa;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+
+  p {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  span {
+    margin-top: 0.5rem;
+  }
+  .btn {
+    color: white;
+    background-color: #400c0d;
+    border-radius: 3px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: #6A1414;
+    text-decoration: underline;
+  }
+}
+
+//===Latest Posts===//
+.latest-posts {
+  background-color: #fafafa;
+  padding: 3rem 0;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 3rem;
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 2.25rem;
+  }
+}
+
+.posts-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-latest-posts {
+  max-width: 25%;
+  flex: 1 0 25%;
+  border: 1px solid #e1e1e1;
+  background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+.post-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    max-width: none;
+    top: -10%;
+    right: -10%;
+    left: -10%;
+    bottom: -10%;
+    margin: auto;
+  }
+}
+
+.post-info {
+  padding: 0.75rem;
+
+  h3 {
+    font-family:'Open Sans';
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    a {
+      color: #808080;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #db272a;
+      text-decoration: underline;
+    }
+  }
+  
+  & .entry-meta {
+    font-size: 0.9rem;
+  }
+
+  & .entry-date {
+    color: #a1a1a1;
+    font-size: 0.9rem;
+  }
+}
+
+//===Testimonials===//
+
+.testimonials li:first-child {
+  border-right: 1px dashed #d2d2d2;
+  border-bottom: 1px dashed #d2d2d2;
+}
+
+.testimonials li:nth-child(2) {
+  border-bottom: 1px dashed #d2d2d2;
+}
+
+.testimonials li:nth-child(3) {
+  border-right: 1px dashed #d2d2d2;
+}
+
+.testimonials {
+  margin-bottom: 3rem;
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2.25rem;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 0;
+
+    li {
+      display: flex;
+      flex: 1 0 50%;
+      padding: 1rem;
+      max-width: 50%;
+
+      img {
+        margin-right: 1.5rem;
+        width: 100px;
+        min-width: 100px;
+        height: 100px;
+      }
+
+      .reviewer {
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+
+      a:hover {
+        color: #400c0d;
+        text-decoration: underline;
+      }
+    }
+  }
+}

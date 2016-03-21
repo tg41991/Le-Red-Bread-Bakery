@@ -1,0 +1,36 @@
+.archive .page-header {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px dashed #d2d2d2;
+  margin-bottom: 1.5rem;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.product-menu {
+
+  .product-menu-item {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px dashed #d2d2d2;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-menu-item img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    min-width: 150px;
+  }
+
+  .product-item-info {
+   padding: 0 1.5rem;
+ }
+}

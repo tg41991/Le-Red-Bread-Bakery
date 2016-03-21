@@ -1,0 +1,185 @@
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+/* Posts and pages */
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 4.5rem;
+}
+
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: $base__space-unit 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 $base__space-unit;
+}
+
+/* Asides */
+
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/* Comments */
+
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+//===Content Area===//
+
+body:not(.home):not(.page-template-about):not(.post-type-archive-product) .site-content {
+	display: flex;
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.site-content h2 {
+	font-family: "Overlock";
+	font-weight: bold;
+	margin-bottom: 0.25rem;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			color: #400c0d;
+			text-decoration: underline;
+		}
+	}
+}
+
+.site-content p {
+	font-family: 'Open Sans';
+}
+
+body:not(.home):not(.page-template-about):not(.post-type-archive-product) .content-area {
+	width: 73%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-right: 5%;
+}
+
+.entry-meta {
+	color: #808080;
+	font-family: 'Open Sans';
+}
+
+blockquote {
+	border-left: 7px solid #db272a;
+	color: #a1a1a1;
+	font-size: 1.2rem;
+	margin-left: 0;
+	padding-left: 1.5rem;
+}
+
+hr.decorative {
+	border: none;
+	color: #e1e1e1;
+	margin: 0 auto 3rem;
+	max-width: 320px;
+	padding: 0;
+	position: relative;
+	width: 50%;
+
+	&:after {
+		background: 0 0;
+		color: #e1e1e1;
+		content: '\f111';
+		display: inline-block;
+		font-family: FontAwesome;
+		font-size: 14px;
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
+}
+
+//===Sidebar===//
+
+body:not(.home):not(.page-template-about):not(.post-type-archive-product)
+.widget-area {
+  width: 27%;
+	border-left: 1px solid #e1e1e1;
+	padding-top: 3rem;
+	padding-left: 5%;
+	color: #808080;
+
+	a {
+		color: #db272a;
+		text-decoration: none;
+
+		&:hover {
+			color: #400c0d;
+			text-decoration: underline;
+		}
+	}
+
+	h2 {
+		color: #333;
+		font-family: "Overlock";
+		font-size: 1.2rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom:0.75rem;
+	}
+
+	p {
+		margin-bottom: 0.5rem;
+		color: #808080;
+	}
+}
+
+.textwidget {
+
+	i {
+	 color: #808080;
+	 margin-right: 0.5rem;
+	 line-height: 1.6;
+	 width: 20px;
+	}
+
+	p {
+		color:#808080;
+		display: flex;
+	}
+	span {
+		color:#808080;
+	}
+}
+
+.day-of-week {
+	font-weight: bold;
+}
+
+// Archives //
+#archives-2 ul {
+	list-style: none;
+	margin: 0;
+	a {
+		text-decoration: none;
+	}
+}

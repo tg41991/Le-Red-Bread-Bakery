@@ -1,0 +1,55 @@
+.error-404 .search-form {
+  fieldset {
+    padding: 0 0  0.75rem;
+  }
+
+  label {
+    font-weight: bold;
+  }
+}
+
+.error-404 .search-field {
+  padding: 0.5rem 0.3rem;
+  color: #808080;
+  background-color: #fafafa;
+  border: 1px solid #e1e1e1;
+  border-radius:3px;
+}
+
+.error-404 .search-submit {
+  background-color: #400c0d;
+  border-radius: 3px;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+
+  i {
+    color: white;
+  }
+}
+
+.error-404 .search-submit:hover {
+  background-color: #6A1414;
+}
+
+.error-404 h2 {
+  color: #808080;
+}
+
+.error-404 a {
+  font-family: 'Open Sans';
+}
+
+.error-404 .widget ul {
+  list-style: none;
+  margin-bottom: 1.5rem;
+  margin-left: 0;
+}
+
+.error-404 .widget li {
+  font-family: 'Open Sans';
+  color:#808080;
+}
+
+select {
+  font-family: 'Open Sans';
+}
